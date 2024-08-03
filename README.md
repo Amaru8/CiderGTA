@@ -25,7 +25,7 @@ CiderGTA is an external integration for the community focused Apple Music client
 - Open `game installation folder \ mods \ update \ update.rpf \ x64 \ data \ cdimages \ scaleform_generic.rpf \ hud.ytd` in Edit Mode after you installed the Community HUD.gfx mod.
 - Select `gtav_radio_stations_texture05_512` in the Texture Editor and replace it with the `community_with_cider_icon.dds` file from the extracted mod folder.
 - Enable external connectivity by opening `Settings > Connectivity > External Applications` and turning on the **WebSockets API** and the **RPC Server**.
-- Create a new API key by clicking `Manage External Application Access > Create New` and replace `PLACEHOLDER` in the `GTACider.ini` file with the generated token.
+- Create a new API key by clicking `Manage External Application Access > Create New` and replace `PLACEHOLDER` in the `CiderGTA.ini` file with the generated token.
 
 ## Third-Party Software
 
@@ -49,7 +49,7 @@ Big thanks to [sahailee](https://github.com/sahailee) for his awesome [Spotify R
 
 ## Note
 
-This mod also uses the `RADIO_47_SPOTIFY_RADIO` station included in Community HUD.gfx. This means that the CiderGTA and sahailee's Spotify Radio can't be used simultaneously.
+This mod also uses the `RADIO_47_SPOTIFY_RADIO` station included in Community HUD.gfx. This means that CiderGTA and sahailee's Spotify Radio can't be used simultaneously.
 If you know a direct way to contact the author of the GFX.mod, [WildBrick142](https://www.gta5-mods.com/users/WildBrick142), please send me a mail to [amaru@cider.sh](mailto:amaru@cider.sh).
 
 ## Disclaimer
