@@ -11,6 +11,7 @@ CiderGTA is an external integration for the community focused Apple Music client
 - The official game, licensed. Usage with pirated copies is not recommended and no support will be offered.
 - Latest ScriptHookV and ScriptHookVDotNet installed to your game.
 - Basic modding knowledge.
+- OpenIV, or a similar tool you are comfortable with.
 - Cider, at least on version 2.5.
 - [Community HUD.gfx](https://www.gta5-mods.com/tools/community-hud-gfx-for-add-on-radio-stations) mod installed to your game.
 
@@ -19,10 +20,10 @@ CiderGTA is an external integration for the community focused Apple Music client
 - Open the [GitHub Releases page](https://github.com/Amaru8/CiderGTA/releases/latest) and click on `Assets` at the bottom to download the latest version. You usually need to look for a file where the name ends with `.zip`.
 - Extract the downloaded archive.
 - Copy the extracted `scripts` folder to the main directory of your game installation folder.
-- Navigate to `game installation folder \ mods \ update \ x64 \ dlcpacks` and copy `ciderradio` from the DLC directory.
+- Navigate to `game installation folder \ mods \ update \ x64 \ dlcpacks` and insert the `ciderradio` folder from the DLC directory.
 - Append `<Item>dlcpacks:/ciderradio/</Item>` to `dlclist.xml` in `game installation folder \ mods \ update \ update.rpf \ common \ data`.
 - Open `game installation folder \ mods \ update \ update.rpf \ x64 \ data \ cdimages \ scaleform_generic.rpf \ hud.ytd` in Edit Mode after you installed the Community HUD.gfx mod.
-- Select `gtav_radio_stations_texture05_512` in the Texture Editor and replace it with the `community_with_cider_icon.dds` from the extracted mod folder.
+- Select `gtav_radio_stations_texture05_512` in the Texture Editor and replace it with the `community_with_cider_icon.dds` file from the extracted mod folder.
 - Enable external connectivity by opening `Settings > Connectivity > External Applications` and turning on the **WebSockets API** and the **RPC Server**.
 - Create a new API key by clicking `Manage External Application Access > Create New` and replace `PLACEHOLDER` in the `GTACider.ini` file with the generated token.
 
@@ -53,4 +54,4 @@ If you know a direct way to contact the author of the GFX.mod, [WildBrick142](ht
 
 ## Disclaimer
 
-_This project is NOT affiliated with Apple, Rockstar Games or Take Two Interactive in any way, shape, or form. Cider Collective, or other developers and contributors of Cider Collective Software are not related to this project. It is open source and free to use (with the requirements). For any legal requests, contact me at [amaru@cider.sh](mailto:amaru@cider.sh)._
+_This project is NOT affiliated with Apple, Rockstar Games or Take Two Interactive in any way, shape, or form. Cider Collective, or other developers and contributors of Cider Collective Software are not related to this project. It is open source and free to use (if the requirements are fulfilled). For any legal requests, contact me at [amaru@cider.sh](mailto:amaru@cider.sh)._
