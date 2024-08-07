@@ -14,6 +14,7 @@ CiderGTA is an external integration for the community focused Apple Music client
 - OpenIV, or a similar tool you are comfortable with.
 - Cider, at least on version 2.5.
 - [Community HUD.gfx](https://www.gta5-mods.com/tools/community-hud-gfx-for-add-on-radio-stations) mod installed to your game.
+- [LemonUI SHVDN3](https://github.com/LemonUIbyLemon/LemonUI/releases/latest) installed to the scripts folder.
 
 ### Steps
 
